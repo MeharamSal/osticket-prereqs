@@ -28,8 +28,17 @@ CGI and Common HTTP Features
              -Files link https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 - From the Installation Files, download and install VC_redist.x86.exe.
 - From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+- Register PHP from within IIS
+- Install osTicket v1.15.8
+- Enable extensions
+- Assign Permissions: ost-config.php
+- Continue Setting up osTicket in the browser
+- From the Installation Files, download and install HeidiSQL.
+- Continue Setting up osticket in the browser
+- Clean up
+Delete: C:\inetpub\wwwroot\osTicket\setup
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-- Item 5
 
 <h2>Installation Steps</h2>
 
