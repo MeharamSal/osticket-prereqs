@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -28,7 +24,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 CGI and Common HTTP Features
 
 
-- Item 3
+- Download and Install PHP Manager and Rewrite Module from
+-Files link https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 - Item 4
 - Item 5
 
@@ -54,10 +51,116 @@ Go through the setup of your virtual machine and make sure the Region is the sam
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p><img width="1613" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/e510e991-2c14-4531-9b4d-1569bf604a99">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Remote Connect into your newly created Virtual Machine once deployed through 'Remote Desktop Connection' located in the start menu of your Windows computer. Copy your virtual machines public IP address and log in with the username you created previously.
 </p>
 <br />
+
+<p>
+<img width="898" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/3e084d21-2723-4841-ba3c-a3fa77f53423">
+
+</p>
+<p>
+Access your computers control panel and locate Programs. Select 'Turn Windows features on or off'
+<p>
+
+  
+<img width="331" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/ca8ac071-d026-4018-ae74-4b00f4c8c672">
+
+</p>
+<p>
+Under Internet Information Services,select 'World Wide Web Services'->Application Development Features ->CGI. Side note: Make sure Common HTTP Features is also selected(right under Application Development Features) <p>
+
+
+
+
+
+
+
+  
+<img width="1172" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/43bd0785-be48-4638-83ef-14b5dd5d3203">
+
+</p>
+<p>
+From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+
+From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+Create the directory C:\PHP
+
+From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+<p>
+
+  
+  
+  
+  
+  
+  
+<img width="1171" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/6a0f623a-bfab-45a6-8976-a917739384e2">
+
+
+</p>
+<p>
+From the Installation Files, download and install VC_redist.x86.exe.
+<p>
+
+  
+  
+  
+  
+  
+  
+  
+  
+ <img width="1193" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/17fff93b-3e28-4cbe-95c4-b1e490ed046c">
+
+</p>
+<p>
+From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+<p>
+
+  
+  
+  
+  
+  
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+text<p>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+text<p>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+text
