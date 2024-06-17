@@ -563,6 +563,15 @@ After clicking install you should be met with this page if you followed this gui
 
 
 
+<p>
+<img width="769" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/7998bd2f-085c-4251-8804-ef4b77ad19fd">
+
+</p>
+<p>
+Delete: C:\inetpub\wwwroot\osTicket\setup
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+
 
 
 
