@@ -25,8 +25,10 @@ CGI and Common HTTP Features
 
 
 - Download and Install PHP Manager and Rewrite Module from
--Files link https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-- Item 4
+             -Files link https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+- From the Installation Files, download and install VC_redist.x86.exe.
+- From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+
 - Item 5
 
 <h2>Installation Steps</h2>
@@ -128,10 +130,17 @@ From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win
   
   
   
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+  
+  
+ <img width="367" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/15e43278-1b46-4ddd-9085-70cac06fb3e1">
+
 </p>
 <p>
-text<p>
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+  Set your Password
+<p>
 
   
   
@@ -145,10 +154,12 @@ text<p>
   
   
   
-  img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img width="587" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/1eb38134-7aeb-4cce-8430-3a9affb19f7b">
+
 </p>
 <p>
-text<p>
+Run IIS as an Admin
+<p>
 
   
   
