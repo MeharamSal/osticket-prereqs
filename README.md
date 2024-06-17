@@ -493,10 +493,22 @@ New Permissions -> Everyone -> All
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="919" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/c3fa9c8d-0f4d-4e33-b482-89b8f3a9591d">
+<img width="513" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/9e558632-641d-428f-bcfd-babfbfa0de8f">
+<img width="286" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/f9f79e1b-46d3-4403-9674-c8c185bea8ea">
+<img width="181" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/a468833f-eef4-4c0b-9828-624806dee3e6">
+
+
+
+
 </p>
 <p>
-text
+From the Installation Files, download and install HeidiSQL.
+Open Heidi SQL
+Create a new session, Create User and Password
+Connect to the session
+Create a database called “osTicket”
+
 
 
 
@@ -520,10 +532,11 @@ text
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="542" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/397cb521-2748-4d30-80a8-e090a77d7565">
+
 </p>
 <p>
-text
+Back on osTicket, fill out the database settings information with your newly created SQL Database
 
 
 
@@ -541,10 +554,11 @@ text
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="747" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/94d20893-68d2-41d6-afe7-bc1adb60a6af">
+
 </p>
 <p>
-text
+After clicking install you should be met with this page if you followed this guide step by step!
 
 
 
@@ -552,27 +566,6 @@ text
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-text
 
 
 
