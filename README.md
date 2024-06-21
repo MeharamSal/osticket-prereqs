@@ -58,15 +58,14 @@ You will locate Resource Groups and Virtual Machines. (can search for it in sear
 
 </p>
 <p>
-Go through the setup of your virtual machine and make sure the Region is the same as the one previously chosen in Resource group. If you skipped creating a Resource group before, you can create on on the virtual machines page under Create New.
-</p>
+Proceed with configuring your virtual machine setup and ensure that the Region matches the one selected earlier for the Resource group. If you did not create a Resource group previously, you can do so on the virtual machines page under 'Create New'</p>
 <br />
 
 <p><img width="1613" alt="image" src="https://github.com/MeharamSal/osticket-prereqs/assets/173064050/e510e991-2c14-4531-9b4d-1569bf604a99">
 
 </p>
 <p>
-Remote Connect into your newly created Virtual Machine once deployed through 'Remote Desktop Connection' located in the start menu of your Windows computer. Copy your virtual machines public IP address and log in with the username you created previously.
+Access your newly deployed Virtual Machine remotely using 'Remote Desktop Connection' found in the start menu of your Windows computer. Copy the public IP address of your virtual machine and log in using the previously established username
 </p>
 <br />
 
@@ -75,7 +74,7 @@ Remote Connect into your newly created Virtual Machine once deployed through 'Re
 
 </p>
 <p>
-Access your computers control panel and locate Programs. Select 'Turn Windows features on or off'
+Access your computer's Control Panel and navigate to Programs. Choose 'Turn Windows features on or off'
 <p>
 
   
@@ -83,7 +82,14 @@ Access your computers control panel and locate Programs. Select 'Turn Windows fe
 
 </p>
 <p>
-Under Internet Information Services,select 'World Wide Web Services'->Application Development Features ->CGI. Side note: Make sure Common HTTP Features is also selected(right under Application Development Features) <p>
+Navigate to Internet Information Services and select 'World Wide Web Services' -> 'Application Development Features' -> 'CGI'. Ensure that 'Common HTTP Features' is also selected, located directly below 'Application Development Features'.
+
+
+
+
+
+
+ <p>
 
 
 
@@ -96,13 +102,13 @@ Under Internet Information Services,select 'World Wide Web Services'->Applicatio
 
 </p>
 <p>
-From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) from the installation files.
 
-From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+Download and install the Rewrite Module (rewrite_amd64_en-US.msi) from the installation files.
 
-Create the directory C:\PHP
+Create the directory C:\PHP.
 
-From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) from the installation files and extract the contents into C:\PHP.
 <p>
 
   
@@ -116,7 +122,7 @@ From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zi
 
 </p>
 <p>
-From the Installation Files, download and install VC_redist.x86.exe.
+Download and install VC_redist.x86.exe from the installation files.
 <p>
 
   
@@ -131,7 +137,8 @@ From the Installation Files, download and install VC_redist.x86.exe.
 
 </p>
 <p>
-From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) from the installation files.
+
 <p>
 
   
@@ -146,9 +153,7 @@ From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win
 
 </p>
 <p>
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
-  Set your Password
+After installation, launch the Configuration Wizard, then choose "Standard Configuration" and set your password.
 <p>
 
   
@@ -167,7 +172,7 @@ Standard Configuration ->
 
 </p>
 <p>
-Run IIS as an Admin
+Execute IIS with administrative privileges.
 <p>
 
   
@@ -230,8 +235,7 @@ Download osTicket from the Installation Files Folder
 
 </p>
 <p>
-Extract and copy “upload” folder to c:\inetpub\wwwroot
-Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+Extract the "upload" folder and transfer its contents to c:\inetpub\wwwroot. Subsequently, within c:\inetpub\wwwroot, rename the "upload" directory to "osTicket".
 
 
 
@@ -325,7 +329,7 @@ On the right, click “Browse *:80”
 
 </p>
 <p>
-Enable Extentions
+Enable Extensions
 
 
 
@@ -545,7 +549,13 @@ Create a database called “osTicket”
 
 </p>
 <p>
-Back on osTicket, fill out the database settings information with your newly created SQL Database
+Proceed with configuring the database settings in osTicket by entering the details for your newly created SQL Database.
+
+
+
+
+
+
 
 
 
